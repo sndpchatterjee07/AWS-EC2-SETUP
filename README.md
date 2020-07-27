@@ -51,7 +51,7 @@
 - `sudo apt-get install tomcat9-examples`
 
 3. Enabling UFW and setting up following rules
-   *** Tested locally but not tried on EC2 ***
+   ***Tested locally but not tried on EC2***
 - `sudo ufw enable`
 - `sudo ufw allow 8080`
 - `sudo ufw allow proto tcp to 0.0.0.0/0 port 8080`
