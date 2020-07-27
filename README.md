@@ -1,4 +1,4 @@
-### Instructions for AWS Account Setup(12 Months of Free Tier) 
+### Instructions for AWS Account Setup(12 Months Free Tier) 
 
 ## CREATING THE AWS ACCOUNT.
 
