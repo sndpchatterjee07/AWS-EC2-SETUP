@@ -25,33 +25,32 @@
 ## CONNECTING TO THE EC2 INSTANCE:
 
 1. Connect to your Linux instance using an SSH client or from terminal
-    > ssh -i "/path/my-key-pair.pem" ubuntu@ec2-XXX-XXX-XXX-XXX.XXX-XXX-XXX.compute.amazonaws.com
-    > ssh -i "/path/my-key-pair.pem" ubuntu@XXX-XXX-XXX-XXX
+  
+ - `ssh -i "/path/my-key-pair.pem" ubuntu@ec2-XXX-XXX-XXX-XXX.XXX-XXX-XXX.compute.amazonaws.com`
+ - `ssh -i "/path/my-key-pair.pem" ubuntu@XXX-XXX-XXX-XXX`
 
 
 ## IAM CONSOLE URL AND LOGIN DETAILS
 
-   > https://***12-digitaccountid***.signin.aws.amazon.com/console
+ - `https://***12-digitaccountid***.signin.aws.amazon.com/console`
 
 ## SOFTWARE INSTALLATIONS
 
 1. Installing default JDK
 
-   > sudo apt install default-jdk
+ - `sudo apt install default-jdk`
 
 2. Installing Tomcat 9
 
-   > sudo apt-get install tomcat9
-   > sudo apt-get install tomcat9-admin
-   > sudo apt-get install tomcat9-docs
-   > sudo apt-get install tomcat9-examples
+- `sudo apt-get install tomcat9`
+- `sudo apt-get install tomcat9-admin`
+- `sudo apt-get install tomcat9-docs`
+- `sudo apt-get install tomcat9-examples`
 
-   > Enabling UFW and setting up following rules
-   > *** Tested locally but not tried on EC2 ****
-   >
-   > sudo ufw enable
-   > sudo ufw allow 8080
-   > sudo ufw allow proto tcp to 0.0.0.0/0 port 8080
-   >
-   > Tomcat default access URL:
-        - http://XXX.XXX.XXX.XXX:8080/ (The public IP address could be mapped to the actual domain).
+3. Enabling UFW and setting up following rules
+   *** Tested locally but not tried on EC2 ***
+- `sudo ufw enable`
+- `sudo ufw allow 8080`
+- `sudo ufw allow proto tcp to 0.0.0.0/0 port 8080`
+
+- Tomcat default access URL: `http://XXX.XXX.XXX.XXX:8080/` (The public IP address could be mapped to the actual domain).
