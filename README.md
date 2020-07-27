@@ -54,5 +54,4 @@
    > sudo ufw allow proto tcp to 0.0.0.0/0 port 8080
    >
    > Tomcat default access URL:
-   > http://ec2-XXX-XXX-XXX-XXX.XXX-XXX-XXX.compute.amazonaws.com:8080/
-   > http://XXX.XXX.XXX.XXX:8080/
+        - http://XXX.XXX.XXX.XXX:8080/ (The public IP address could be mapped to the actual domain).
