@@ -8,6 +8,9 @@
 4. AWS account type:
 5. Payment Information:
 
+## ACCOUNT AUTH INFO.
+1. `https://pastebin.com/JGGvSjjm`
+
 
 ## STEPS FOR SETTING UP AN EC2 INSTANCE:
 
