@@ -58,6 +58,4 @@ Given that certain pieces of this information are confidential, they have been s
  - `ssh -i "/path/my-key-pair.pem" ubuntu@XXX-XXX-XXX-XXX`
 
 
-## SOFTWARE INSTALLATIONS
-
 
