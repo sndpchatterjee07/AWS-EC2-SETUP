@@ -52,10 +52,9 @@ Given that certain pieces of this information are confidential, they have been s
 
 ## CONNECTING TO THE EC2 INSTANCE:
 
-1. Connect to your Linux instance using an SSH client or from a terminal
+***Connect to your Linux instance using an SSH client or from a terminal using Elastic IP Address***
   
- - `ssh -i "/path/my-key-pair.pem" ubuntu@ec2-XXX-XXX-XXX-XXX.XXX-XXX-XXX.compute.amazonaws.com`
- - `ssh -i "/path/my-key-pair.pem" ubuntu@XXX-XXX-XXX-XXX`
+ - `ssh -i "/path/my-key-pair.pem" ubuntu@XXX.XXX.XXX.XXX`
 
 
 
