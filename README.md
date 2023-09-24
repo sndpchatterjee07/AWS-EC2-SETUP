@@ -16,7 +16,7 @@ AWS helps new customers get started for free. Each calendar month, the Amazon EC
 
 
 
-Given that certain pieces of this information are confidential, they have been suppressed and retained [here](https://gist.github.com/sndpchatterjee07/b45776d5c863a8432e41df387685990e).
+Given that certain pieces of this information are confidential, they have been suppressed.
 
 
 ## STEPS FOR SETTING UP AND LAUNCHING AN EC2 INSTANCE:
