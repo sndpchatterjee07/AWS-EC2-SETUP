@@ -11,7 +11,8 @@ AWS helps new customers get started for free. Each calendar month, the Amazon EC
 
 ## CREATING THE AWS ACCOUNT.
 
-![img](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/e4a72705-7fbe-460b-ae9c-e0a0d3621b07)
+![img](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/5174c7bc-8566-4162-9717-79dccb89fbfd)
+
 
 
 
@@ -22,21 +23,26 @@ Given that certain pieces of this information are confidential, they have been s
 
 1. ***Choose an Application and OS Image (Amazon Machine Image)***
 
-    ![Screenshot from 2023-09-24 15-18-33](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/149a470e-284c-4db2-adb4-25a20a3d19b8)
+    ![Screenshot from 2023-09-24 15-18-33](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/5ab2968f-6667-4701-9121-f0a8452d8e53)
+
 
 2. ***Choose an Instance Type***
 
-    ![Screenshot from 2023-09-24 15-19-55](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/5d9da543-d762-4e65-8a9e-53226c0e0a5f)
+    ![Screenshot from 2023-09-24 15-19-55](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/975a4ca3-a3b7-488e-9b63-2cc7e42531d4)
+
+
 
 
 3. ***Create a Key Pair `My-EC2-KeyPair.pem`***
     
-    ![Screenshot from 2023-09-24 15-23-00](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/6788cada-2490-4b69-a5ac-7503958688c8)
+      ![Screenshot from 2023-09-24 15-23-00](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/16c0fbc3-e29a-47f0-ae8a-dff80a025f76)
+  
 
     
 4. ***Network Settings***
 
-    ![Screenshot from 2023-09-24 15-28-50](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/b130b3d8-dfe2-4e84-af35-75af231ec543)
+    ![Screenshot from 2023-09-24 15-28-50](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/d501e1e2-170d-45c5-9037-f6c72e251c53)
+
 
 
 5. ***Configure Storage*** - Default Values
