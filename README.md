@@ -11,14 +11,15 @@ AWS helps new customers get started for free. Each calendar month, the Amazon EC
 
 ## CREATING THE AWS ACCOUNT.
 
-1. Root user email address: `sandeepchatterjee.connect@gmail.com`
-2. Root user password: `RsG/KM3.6nf9`
-3. AWS account name: `sandeep-chatterjee-24-09-2023`
-4. AWS account type:  `Personal - for your own projects`
-5. Payment Information: `Credit or Debit card number`
-6. Primary purpose of account registration: `Personal use`
-7. Ownership type: `Individual`
-8. Select a support plan: `Basic support - Free`
+1. ***Root user email address:*** `sandeepchatterjee.connect@gmail.com`
+2. ***Root user password:*** `RsG/KM3.6nf9`
+3. ***AWS account name:*** `sandeep-chatterjee-24-09-2023`
+4. ***AWS account type:***  `Personal - for your own projects`
+5. ***Payment Information:*** `Credit or Debit card number`
+6. ***Primary purpose of account registration:*** `Personal use`
+7. ***Ownership type:*** `Individual`
+8. ***Select a support plan:*** `Basic support - Free`
+9. ***Console Sign In Link:*** [https://console.aws.amazon.com/](https://console.aws.amazon.com/)
 
 
 ## ACCOUNT AUTH INFO.
