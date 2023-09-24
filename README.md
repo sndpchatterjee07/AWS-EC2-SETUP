@@ -20,6 +20,7 @@ AWS helps new customers get started for free. Each calendar month, the Amazon EC
 7. ***Ownership type:*** `Individual`
 8. ***Select a support plan:*** `Basic support - Free`
 9. ***Console Sign In Link:*** [https://console.aws.amazon.com/](https://console.aws.amazon.com/)
+10. ***AWS Account ID:*** `1592-2830-3076`
 
 
 ## ACCOUNT AUTH INFO.
