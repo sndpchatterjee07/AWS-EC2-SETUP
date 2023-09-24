@@ -11,16 +11,11 @@ AWS helps new customers get started for free. Each calendar month, the Amazon EC
 
 ## CREATING THE AWS ACCOUNT.
 
-1. ***Root user email address:*** `sandeepchatterjee.connect@gmail.com`
-2. ***Root user password:*** `RsG/KM3.6nf9`
-3. ***AWS account name:*** `sandeep-chatterjee-24-09-2023`
-4. ***AWS account type:***  `Personal - for your own projects`
-5. ***Payment Information:*** `Credit or Debit card number`
-6. ***Primary purpose of account registration:*** `Personal use`
-7. ***Ownership type:*** `Individual`
-8. ***Select a support plan:*** `Basic support - Free`
-9. ***Console Sign In Link:*** [https://console.aws.amazon.com/](https://console.aws.amazon.com/)
-10. ***AWS Account ID:*** `1592-2830-3076`
+![img](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/e4a72705-7fbe-460b-ae9c-e0a0d3621b07)
+
+
+
+Given that certain pieces of this information are confidential, they have been suppressed and retained [here](https://gist.github.com/sndpchatterjee07/b45776d5c863a8432e41df387685990e).
 
 
 ## STEPS FOR SETTING UP AND LAUNCHING AN EC2 INSTANCE:
@@ -57,27 +52,6 @@ AWS helps new customers get started for free. Each calendar month, the Amazon EC
  - `ssh -i "/path/my-key-pair.pem" ubuntu@XXX-XXX-XXX-XXX`
 
 
-## IAM CONSOLE URL AND LOGIN DETAILS
-
- - `https://***12-digitaccountid***.signin.aws.amazon.com/console`
-
 ## SOFTWARE INSTALLATIONS
 
-1. Installing default JDK
 
- - `sudo apt install default-jdk`
-
-2. Installing Tomcat 9
-
-- `sudo apt-get install tomcat9`
-- `sudo apt-get install tomcat9-admin`
-- `sudo apt-get install tomcat9-docs`
-- `sudo apt-get install tomcat9-examples`
-
-3. Enabling UFW and setting up the following rules
-   ***Tested locally but not tried on EC2***
-- `sudo ufw enable`
-- `sudo ufw allow 8080`
-- `sudo ufw allow proto tcp to 0.0.0.0/0 port 8080`
-
-- Tomcat default access URL: `http://XXX.XXX.XXX.XXX:8080/` (The public IP address could be mapped to the actual domain).
