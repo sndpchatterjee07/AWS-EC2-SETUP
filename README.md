@@ -1,12 +1,25 @@
-### Instructions for AWS Account Setup(12 Months Free Tier) 
+### Instructions for [AWS Account Setup](https://aws.amazon.com/pm/ec2/) (12 Months Free Tier) 
+
+## Amazon EC2 on the Free Tier
+
+**12 MONTHS FREE**
+
+AWS helps new customers get started for free. Each calendar month, the Amazon EC2 Free Tier allows you to use:
+
+- 750 hours per month of Linux, RHEL, SLES, or Windows t2.micro or t3.micro instance dependent on region
+
 
 ## CREATING THE AWS ACCOUNT.
 
-1. Email address:
-2. Password:
-3. AWS account name:
-4. AWS account type:
-5. Payment Information:
+1. Root user email address: `sandeepchatterjee.connect@gmail.com`
+2. Root user password: `RsG/KM3.6nf9`
+3. AWS account name: `sandeep-chatterjee-24-09-2023`
+4. AWS account type:  `Personal - for your own projects`
+5. Payment Information: `Credit or Debit card number`
+6. Primary purpose of account registration: `Personal use`
+7. Ownership type: `Individual`
+8. Select a support plan: `Basic support - Free`
+
 
 ## ACCOUNT AUTH INFO.
 1. `https://pastebin.com/JGGvSjjm`
