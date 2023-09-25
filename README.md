@@ -57,7 +57,7 @@ Given that certain pieces of this information are confidential, they have been s
    ![Screenshot from 2023-09-25 10-03-28](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/67352af8-2670-4d2b-b4bc-ff2ef47670fe)
  
 
-- Configure Security Groups to allow HTTP & HTTPS data under `Network & Security` -> `Security Groups`
+- Configure `Security Groups` to allow HTTP & HTTPS data under `Network & Security` -> `Security Groups`
 
    ![Screenshot from 2023-09-25 10-11-09](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/e96b8740-7631-4915-a61f-5715a34efed3)
  
