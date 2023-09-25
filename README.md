@@ -50,11 +50,55 @@ Given that certain pieces of this information are confidential, they have been s
 6. ***Advanced Details*** - Default Values
 
 
+***VERY VERY IMPORTANT*** 
+
+- As soon as the AWS EC2 instance is created, allocate an `Elastic IP` and map it to the newly created `instanceid` under `Network & Security`.
+
+   ![Screenshot from 2023-09-25 10-03-28](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/67352af8-2670-4d2b-b4bc-ff2ef47670fe)
+ 
+
+- Configure Security Groups to allow HTTP & HTTPS data under `Network & Security` -> `Security Groups`
+
+   ![Screenshot from 2023-09-25 10-11-09](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/e96b8740-7631-4915-a61f-5715a34efed3)
+ 
+
+
+
 ## CONNECTING TO THE EC2 INSTANCE:
 
 ***Connect to your Linux instance using an SSH client or from a terminal using Elastic IP Address***
   
  - `ssh -i "/path/my-key-pair.pem" ubuntu@XXX.XXX.XXX.XXX`
+
+
+## CONFIGURING APACHE SERVER ONCE CONNECTED TO EC2 INSTANCE:
+
+***Login as root and run the following commands one by one***
+
+    apt-get update && apt-get upgrade
+    apt-get install apache2
+    ufw allow "Apache Full"
+    ufw allow 80
+
+***Navigate to the var directory under apache as root and change ownership and assign permissions to www-data***
+
+    root@ip-@@-@@-@@-@@:/var# sudo chown -R www-data:www-data /var/www/
+    root@ip-@@-@@-@@-@@:/var# chmod 755 /var/www/html 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
