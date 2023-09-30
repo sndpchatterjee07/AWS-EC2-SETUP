@@ -88,7 +88,8 @@ Given that certain pieces of this information are confidential, they have been s
 
 ## MAPPING THE EC2 INSTANCE TO A [DOMAIN/SUBDOMAIN](https://my.noip.com/):
 
-![Screenshot from 2023-09-30 20-42-02](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/7ec1de3c-cab0-4da4-a2ce-4f0571f88ea0)
+![Screenshot from 2023-10-01 02-04-39](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/67a5d263-a3f0-4cc8-a5aa-261d5e472591)
+
 
 
 
