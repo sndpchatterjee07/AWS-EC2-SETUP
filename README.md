@@ -86,7 +86,7 @@ Given that certain pieces of this information are confidential, they have been s
     root@ip-@@-@@-@@-@@:/var# chmod 755 /var/www/html 
 
 
-## MAPPING THE EC2 INSTANCE TO A DOMAIN:
+## MAPPING THE EC2 INSTANCE TO A [DOMAIN/SUBDOMAIN](https://my.noip.com/):
 
 ![Screenshot from 2023-09-30 20-42-02](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/7ec1de3c-cab0-4da4-a2ce-4f0571f88ea0)
 
