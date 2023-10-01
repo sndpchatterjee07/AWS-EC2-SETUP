@@ -135,7 +135,7 @@ VirtualHost configuration:
 
 
 
-The site `https://@@@@@.ddns.net` now runs on SSL. :))
+The site `https://@@@@@.ddns.net` now runs on SSL for **FREE**. :))
 
 
 
