@@ -94,7 +94,7 @@ Given that certain pieces of this information are confidential, they have been s
 ## SECURING THE SITE THROUGH SSL USING [certbot](https://certbot.eff.org/instructions?ws=apache&os=ubuntufocal)
 
 ```
-snap install --classic certbot`
+snap install --classic certbot
 ln -s /snap/bin/certbot /usr/bin/certbot
 
 root@ip-@@@-@@@-@@@-@@@:/home/ubuntu# sudo certbot --apache
