@@ -93,6 +93,8 @@ Given that certain pieces of this information are confidential, they have been s
 
 ## SECURING THE SITE THROUGH SSL USING [certbot](https://certbot.eff.org/instructions?ws=apache&os=ubuntufocal)
 
+Login as a `root` user.
+
 ```
 snap install --classic certbot
 ln -s /snap/bin/certbot /usr/bin/certbot
@@ -107,17 +109,17 @@ We recommend selecting either all domains, or all domains in a VirtualHost/serve
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Select the appropriate numbers separated by commas and/or spaces, or leave input
 blank to select all options shown (Enter 'c' to cancel): 1
-Requesting a certificate for sandeepc.ddns.net
+Requesting a certificate for @@@@@.ddns.net
 
 Successfully received certificate.
-Certificate is saved at: /etc/letsencrypt/live/sandeepc.ddns.net/fullchain.pem
-Key is saved at:         /etc/letsencrypt/live/sandeepc.ddns.net/privkey.pem
+Certificate is saved at: /etc/letsencrypt/live/@@@@@.ddns.net/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/@@@@@.ddns.net/privkey.pem
 This certificate expires on 2023-12-30.
 These files will be updated when the certificate renews.
 Certbot has set up a scheduled task to automatically renew this certificate in the background.
 
 Deploying certificate
-Successfully deployed certificate for sandeepc.ddns.net to /etc/apache2/sites-available/000-default-le-ssl.conf
+Successfully deployed certificate for @@@@@.ddns.net to /etc/apache2/sites-available/000-default-le-ssl.conf
 Congratulations! You have successfully enabled HTTPS on https://@@@@@.ddns.net
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -125,7 +127,7 @@ If you like Certbot, please consider supporting our work by:
  * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
  * Donating to EFF:                    https://eff.org/donate-le
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-root@ip-172-31-30-202:/home/ubuntu# apachectl -t -D DUMP_VHOSTS
+root@ip-@@@@@-@@@@@-@@@@@-@@@@@:/home/ubuntu# apachectl -t -D DUMP_VHOSTS
 VirtualHost configuration:
 *:443                  @@@.@@@.@@@.@@@ (/etc/apache2/sites-enabled/000-default-le-ssl.conf:2)
 *:80                   @@@.@@@.@@@.@@@ (/etc/apache2/sites-enabled/000-default.conf:1)
