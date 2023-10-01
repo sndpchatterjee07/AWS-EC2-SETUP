@@ -91,14 +91,49 @@ Given that certain pieces of this information are confidential, they have been s
 ![Screenshot from 2023-10-01 02-04-39](https://github.com/sndpchatterjee07/AWS-EC2-SETUP/assets/3818950/67a5d263-a3f0-4cc8-a5aa-261d5e472591)
 
 
+## SECURING THE SITE THROUGH SSL USING [certbot](https://certbot.eff.org/instructions?ws=apache&os=ubuntufocal)
+
+```
+snap install --classic certbot`
+ln -s /snap/bin/certbot /usr/bin/certbot
+
+root@ip-@@@-@@@-@@@-@@@:/home/ubuntu# sudo certbot --apache
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+Which names would you like to activate HTTPS for?
+We recommend selecting either all domains, or all domains in a VirtualHost/server block.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: @@@@@.ddns.net
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+blank to select all options shown (Enter 'c' to cancel): 1
+Requesting a certificate for sandeepc.ddns.net
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/sandeepc.ddns.net/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/sandeepc.ddns.net/privkey.pem
+This certificate expires on 2023-12-30.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+Deploying certificate
+Successfully deployed certificate for sandeepc.ddns.net to /etc/apache2/sites-available/000-default-le-ssl.conf
+Congratulations! You have successfully enabled HTTPS on https://@@@@@.ddns.net
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+root@ip-172-31-30-202:/home/ubuntu# apachectl -t -D DUMP_VHOSTS
+VirtualHost configuration:
+*:443                  @@@.@@@.@@@.@@@ (/etc/apache2/sites-enabled/000-default-le-ssl.conf:2)
+*:80                   @@@.@@@.@@@.@@@ (/etc/apache2/sites-enabled/000-default.conf:1)
+```
 
 
 
-
-
-
-
-
+The site `https://@@@@@.ddns.net` now runs on SSL. :))
 
 
 
